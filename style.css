@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+
+/* MAIN NAV */
+.main-nav {
+    width: 100%;
+    margin: 25px auto;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.main-nav--list {
+    margin: auto;
+    /* width: 40%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.main-nav a,
+.main-nav ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.logo {
+    margin: auto;
+    width: 75px;
+    height: 75px;
+    border-radius: 5000px;
+    position: absolute;
+    left: 48%;
+    top: -115%;
+}
