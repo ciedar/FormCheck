@@ -495,6 +495,12 @@ header {
 
 /* FORM SECTION */
 
+
+.label-tittle {
+    font-size: 36px;
+    letter-spacing: -1px;
+}
+
 .input {
     width: 300px;
     height: 30px;
@@ -507,6 +513,14 @@ header {
     height: 30px;
     border-radius: 5px;
     border: none;
+    background-color: #fb923c;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.order-button:hover {
+    color: white;
 }
 
 .user-input {
@@ -569,4 +583,7 @@ header {
     position: absolute;
     right: 0%;
     height: 400px;
+    width: 300px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
 }
