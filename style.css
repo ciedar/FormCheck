@@ -362,3 +362,121 @@ header {
     height: 200px;
 
 }
+
+
+/* WHY US SECTION */
+
+.tittle {
+    font-size: 20px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+
+.text {
+    font-size: 16px;
+    line-height: 1;
+}
+
+.form {
+    width: 200px;
+}
+
+.why-us-section {
+    margin: auto;
+    border-top: #fdba74 solid 5px;
+    width: 100%;
+    padding-top: 56px;
+    height: 500px;
+}
+
+.why-us-div {
+    margin: auto;
+    width: 70%;
+    display: flex;
+    gap: 150px;
+    /* justify-content: /center; */
+
+
+
+    margin-top: 100px;
+}
+
+.why-us-text {
+    text-align: center;
+    font-size: 24px;
+}
+
+
+
+
+/* FORM ONE */
+.form-one-icon {
+    border-radius: 55px;
+    background-color: #fdba74;
+    stroke: black;
+    fill: black;
+}
+
+.why-us-form-one {
+    width: 200px;
+}
+
+.why-us-form-one-div {
+    padding: 10px 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.074);
+    border-radius: 5px;
+}
+
+
+/* FORM TWO */
+.form-two-icon {
+    border-radius: 55px;
+    background-color: #fdba74;
+    stroke: black;
+    fill: black;
+}
+
+.why-us-form-two-div {
+    padding: 10px 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.074);
+    border-radius: 5px;
+}
+
+
+
+
+
+/* FORM THREE */
+
+.form-three-icon {
+    border-radius: 55px;
+    background-color: #fdba74;
+    stroke: black;
+    fill: black;
+}
+
+.why-us-form-three-div {
+    padding: 10px 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.074);
+    border-radius: 5px;
+}
+
+
+
+
+/* FORM FOUR */
+
+.form-four-icon {
+    border-radius: 55px;
+    background-color: #fdba74;
+    stroke: black;
+    fill: black;
+}
+
+
+.why-us-form-four-div {
+    padding: 10px 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.074);
+    border-radius: 5px;
+}
