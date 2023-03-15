@@ -191,6 +191,7 @@ header {
 
 .how-it-works-text {
     font-size: 24px;
+    font-weight: 700;
 
     grid-column: 1/-1;
     grid-row: 1/2;
@@ -204,6 +205,34 @@ header {
 
 
 /* STEP ONE */
+
+
+.step-one {
+    color: #fdba74;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.step-one-text {
+    font-size: 24px;
+    letter-spacing: -1px;
+    line-height: 1.35;
+}
+
+
+.step-one-form a {
+    color: white;
+    background-color: #fdba74;
+    padding: 4px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.step-one-form a:hover {
+    background-color: #fb923c;
+    /* padding: 4px; */
+    /* border-radius: 5px; */
+}
 
 .step-one-div {
     margin-top: 54px;
@@ -241,6 +270,17 @@ header {
 
 /* STEP TWO */
 
+.step-two {
+    color: #fdba74;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.step-two-text {
+    font-size: 24px;
+    letter-spacing: -1px;
+}
+
 .step-two-img {
     width: 300px;
     justify-self: end;
@@ -264,7 +304,45 @@ header {
     padding: 75px;
 }
 
+.step-two-list li {
+    font-size: 20px;
+    list-style: none;
+    color: #fdba74;
+    /* border-bottom: solid 1px #fdba74; */
+}
+
+.step-two-list li:first-child {
+    margin-top: -4px;
+}
+
+.two-list-1 {
+    width: 120px;
+
+    /* border-bottom: solid 1px #fdba74; */
+}
+
+.two-list-2 {
+    width: 130px;
+    /* border-bottom: solid 1px #fdba74; */
+}
+
+.two-list-3 {
+    width: 310px;
+    /* border-bottom: solid 1px #fdba74; */
+}
+
 /* STEP THREE */
+
+.step-three {
+    color: #fdba74;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.step-three-text {
+    font-size: 24px;
+    letter-spacing: -1px;
+}
 
 .step-three-img {
     height: 400px;
