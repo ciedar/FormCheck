@@ -15,6 +15,11 @@ FONT SIZE SYSTEM (px)
 
 body {
     font-family: 'Lato', sans-serif;
+    /* border-bottom: 5px solid #fdba74; */
+}
+
+header {
+    background-image: url(/images/nordwood-themes-mue4Jwr-N5M-unsplash.jpg);
 }
 
 /* ICONS */
@@ -25,20 +30,25 @@ body {
 
 }
 
+.icon:hover {
+    stroke: #fdba74;
+    fill: #fdba74;
+}
+
 
 /* MAIN NAV */
 .main-nav {
     width: 100%;
     margin: auto;
-    position: relative;
-    background-color: wheat;
+    display: flex;
 }
 
 .main-nav--list {
-    margin: auto;
+    margin: auto auto auto 20px;
+    padding-left: 16px;
     display: flex;
-    justify-content: center;
-    gap: 150px;
+    justify-content: flex-start;
+    gap: 100px;
     text-decoration: none;
     font-size: 20px;
 }
@@ -48,6 +58,30 @@ body {
     text-decoration: none;
     list-style: none;
     color: white;
+}
+
+
+
+.main-nav a:hover {
+    color: #fdba74;
+    font-weight: 700;
+}
+
+
+.main-nav-btn {
+    margin: 10px 25px auto auto;
+    height: 40px;
+    width: 150px;
+    background-color: #fdba74;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+.main-nav-btn:hover {
+    background-color: #fb923c;
 }
 
 /* MAIN SECTION */
@@ -67,22 +101,48 @@ body {
 
 .main-section-div {
     margin: auto;
-
-
+    font-size: 52px;
     height: 700px;
     width: 100%;
     color: #e2e8f0;
     line-height: 0.9;
     letter-spacing: -1.25px;
+    border-bottom: 5px solid #fdba74;
+
+
+
     display: flex;
-    background-image: url(/images/nordwood-themes-mue4Jwr-N5M-unsplash.jpg);
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 52px;
 }
 
+.learn-more-btn {
+    font-size: 18px;
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+    border: none;
+    padding: 8px;
+    margin-top: 52px;
 
+
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.learn-more-btn:hover {
+    background-color: #fdba74;
+    width: 190px;
+    font-weight: 550;
+}
+
+.learn-more-icon {
+    position: absolute;
+    right: 0%;
+    top: 30%
+}
 
 .main-section-icons-div {
     position: absolute;
