@@ -770,5 +770,6 @@ header {
     margin: 150px auto auto auto;
     /* margin-top: 50px; */
     width: 100%;
-    background-color: #fdba74;
+    border-top: #fdba74 1px solid;
+    /* background-color: #fdba74; */
 }
